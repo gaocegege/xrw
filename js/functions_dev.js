@@ -40,7 +40,7 @@ function getPoint(index) {
 }
 
 function startXRWAnimation() {
-	var interval = 20;
+	var interval = 10;
 	var index = 0;
 	var xrw = new Array();
 	var animationTimer = setInterval(function () {
@@ -58,9 +58,10 @@ function startXRWAnimation() {
 			xrw.push(bloom);
 			garden.createRandomBloom(bloom[0], bloom[1]);
 		}
-		if (index >= points.length) {
+		if (index >= points.length - 1) {
+			console.log(points.length);
 			clearInterval(animationTimer);
-			showMessages();
+			// showMessages();
 		} else {
 			index += 1;
 		}
@@ -155,7 +156,7 @@ function showMessages() {
 
 function adjustWordsPosition() {
 	$('#words').css("position", "absolute");
-	$('#words').css("top", $("#garden").position().top + 195);
+	$('#words').css("top", $("#garden").position().top + 0);
 	$('#words').css("left", $("#garden").position().left + 70);
 }
 

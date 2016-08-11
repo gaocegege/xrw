@@ -7,14 +7,14 @@ body {
 }
 
 #mainDiv{
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 80%;
 }
 
 #loveHeart {
 	float: left;
 	width:800px;
-	height:600px;
+	height:400px;
 }
 
 #garden {
