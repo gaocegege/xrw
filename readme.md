@@ -8,7 +8,26 @@
 
 ## 礼物
 
-这个真的不知道
+CP From [#2](https://github.com/gaocegege/xrw/issues/2)
+
+```
+gift = [花束]
+switch budget of
+    case [200, 500]:
+        gift.append(口红)
+        break
+    case [500, 1000]:
+        gift.append(香水)
+        break
+    case [1000, 2000]:
+        gift.append(钱包/手链/项链)
+        break
+    case [10000, +∞):
+        gift.append(包)
+        break
+    default:
+        凑到以上范围
+```
 
 ### TO DO LIST
 
