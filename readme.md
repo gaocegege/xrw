@@ -1,5 +1,7 @@
 ## For 11.23 2016
 
+11.23生日，是时候开始准备起来了 :open_mouth:
+
 ## IDEA
 
 1. 效果区分，gaocegege的头像不适合花这种style
