@@ -36,3 +36,8 @@ switch budget of
 1. 一些message
 2. 优化效果，寻求新的思路
 3. 礼物
+
+### Activities
+
+1. 私人影院
+2. 设计训练场
